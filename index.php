@@ -7,9 +7,12 @@
 </head>
 <body>
     <div>
-        <h1>This is the Web Site of DigiTech</h1>
+        <h1>DigiTech</h1>
         <img src="DigiTech.jpg" alt="DigiTech">
         <h3>2020397 - Kenner Figueiredo</h3>
+        <h3>
+        <?php echo date('Y-m-d H:i:s') ?>
+        </h3>
     </div>
 </body>
 </html>
